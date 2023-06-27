@@ -1,2 +1,2 @@
-with open("file.txt", "w") as file:
-    a = file.write("sdgfdsg")
+with open("file.txt" "r") as file:
+    print(file.read())

@@ -16,6 +16,7 @@ pytest = "^7.4.0"
 pytest-ordering = "^0.6"
 fpdf = "^1.7.2"
 Flask = "^2.3.2"
+matplotlib = "^3.7.2"
 
 
 [build-system]

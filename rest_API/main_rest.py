@@ -3,6 +3,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+df = pandas.read_csv("dictionary.csv")
+
 
 @app.route("/")
 def home():
@@ -11,11 +13,8 @@ def home():
 
 @app.route("/api/v1/<word>")
 def about(word):
-    if word == "pillow":
-        description = word.upper()
-    elif word == "sun":
-        description = word.upper()
-    return {"description": description,
+    definition = df.loc[df["word"] == word]["definition"].squeeze()
+    return {"definition": definition,
             "word": word,
             }
 

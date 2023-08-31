@@ -1,4 +1,4 @@
-# Note: This script runs only on a local IDE with "streamlit run main.py"
+# Note: This script runs only on a local IDE with "streamlit run main_40.py"
 import streamlit as st
 from PIL import Image
 

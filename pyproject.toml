@@ -22,6 +22,7 @@ opencv-python = "^4.8.0.76"
 selectorlib = "^0.16.0"
 PyQt6 = "^6.5.2"
 mysql-connector-python = "^8.1.0"
+qrcode = "^7.4.2"
 
 
 [build-system]
